@@ -1,0 +1,8 @@
+POST {{baseUrl}}/Patient
+Content-Type: application/fhir+json
+
+< ./fixtures/Patient.json
+
+###
+
+GET {{baseUrl}}/Patient
